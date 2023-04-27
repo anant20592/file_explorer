@@ -1,0 +1,15 @@
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-row:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+.flex-row:hover > .file-icons {
+  display: block;
+}
+
+.file-icons {
+  display: none;
+}
